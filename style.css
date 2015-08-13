@@ -1,0 +1,39 @@
+.slider{
+  width: 700px;
+  height: 300px;
+  position: absolute;
+  transition: slide 2s ease;
+}
+
+.image{
+  width: 700px;
+  height: 300px;
+  position: absolute;
+}
+
+.leftButton{
+  width: 70px;
+  height: 300px;
+  position: absolute;
+  float: left;
+  background-color: green;
+  opacity: 0.7;
+  transition: opacity 1s ease;
+  z-index: 1;
+}
+.leftButton:hover{
+  opacity: 0.5;
+}
+.rightButton{
+  width: 70px;
+  height: 300px;
+  position: relative;
+  float: right;
+  background-color: green;
+  opacity: 0.7;
+  transition: opacity 1s ease;
+  z-index: 1;
+}
+.rightButton:hover{
+  opacity: 0.5;
+}
